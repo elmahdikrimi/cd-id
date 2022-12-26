@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "init": "^0.1.2"
+  },
+  "devDependencies": {
+    "cypress": "^12.2.0"
+  },
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "This is an ecommerce website practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:ex": "npx cypress open --env name=example",
+    "cy:env": "npx cypress open --env",
+    "cy:config": "npx cypress open  --config-file prod.config.js --env name=example",
+    "cy:chrome": "npx cypress open --e2e --browser chrome",
+    "cy:dash":"npx cypress run --record --key d0c1726c-0bce-493d-aff2-4e0d6a177ddb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "main-ecommerce"
+  },
+  "keywords": [
+    "ecommerce",
+    "cypress"
+  ],
+  "author": "Medhi",
+  "license": "ISC"
+}
